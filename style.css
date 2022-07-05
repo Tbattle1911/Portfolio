@@ -85,6 +85,9 @@ a.nav-link:hover {
 
 .abt-header {
     border-bottom: 3px solid #2ecc71;
+    text-transform: uppercase;
+    line-height: 1.0;
+    letter-spacing: 1px;
 }
 
 .content {
@@ -95,6 +98,7 @@ a.nav-link:hover {
     color: #2ecc71;
     transition: 0.2s ease;
 }
+
 
 .card:hover {
     transition: .2s ease; 
@@ -165,4 +169,20 @@ a.nav-link:hover {
     background: transparent;
     transition: .2s ease;
     border: 3px solid #2ecc71
+}
+
+.card-title {
+    text-transform: uppercase;
+}
+
+.title {
+    text-transform: uppercase;
+    line-height: 1.0;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 1200px) {
+    .services .card {
+        display: none;
+    }
 }
